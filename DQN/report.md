@@ -35,6 +35,17 @@ To train the agent, similar DQN algorithm has been used with two modifications -
 
 Fixed Q-Targets helps in avoiding the correlation between temporal difference target and estimated Q values. Experience replay allows remembering past experiences that agent has encountered while navigating the environment and learns from that experience at later point of time using replay.
 
+DQN Network archicteture and hyperparameters are as below: 
+
+1. StateSpace x HiddenLayer1 x HiddenLayer2 x ActionSpace, with 64 neurons in each hidden layer and relu activation. 
+2. Experience Replay memory buffer of 1e5.
+3. Batch update on experience replay of 64 experiences.
+4. Discount factor set to 0.99.
+5. Soft update for target DQN update factor of 1e-3.
+6. Network learning rate set to 5e-4.
+7. Target network parameters update at every 4 steps.
+8. Min Rewards threshold for agent is 14. 
+
 
 ## Results
 

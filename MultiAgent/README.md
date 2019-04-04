@@ -37,10 +37,12 @@ To start running the project, open and run the notebook 'Tennis.ipynb'. Structur
 
 3. Tennis.ipynb: notebook has trained network and it's results.
  
-4. 'checkpoint_actor0.pth': player-1 actor's trained network's parameters which an agent can restore it's memory using player.restore_memory function.
+4. 'checkpoint_actor0.pth': player-1 actor's trained network's parameters.
 
-5. 'checkpoint_critic0.pth': player-1 critic's trained network's parameters which an agent can restore it's memory using player.restore_memory function.
+5. 'checkpoint_critic0.pth': player-1 critic's trained network's parameters
 
-6. 'checkpoint_actor1.pth': player-2 actor's trained network's parameters which an agent can restore it's memory using player.restore_memory function.
+6. 'checkpoint_actor1.pth': player-2 actor's trained network's parameters
 
-7. 'checkpoint_critic1.pth': player-2 critic's trained network's parameters which an agent can restore it's memory using player.restore_memory function.
+7. 'checkpoint_critic1.pth': player-2 critic's trained network's parameters
+
+Agent's memory can be restored using player.restore_memory function.

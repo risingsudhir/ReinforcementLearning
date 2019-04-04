@@ -35,7 +35,9 @@ To start running the project, open and run the notebook 'Continuous_Control.ipyn
 
 3. Continuous_Control.ipynb: notebook has trained network and it's results.
  
-4. 'checkpoint_actor.pth': actor's trained network's parameters which an agent can restore it's memory using navigator.restore_memoery function.
+4. 'checkpoint_actor.pth': actor's trained network's parameters.
 
-5. 'checkpoint_critic.pth': critic's trained network's parameters which an agent can restore it's memory using navigator.restore_memoery function.
+5. 'checkpoint_critic.pth': critic's trained network's parameters.
+ 
+Agent can restore it's memory using navigator.restore_memoery function.
 

@@ -38,4 +38,6 @@ To start running the project, open and run the notebook 'Navigation.ipynb'. Stru
 
 3. Navigation.ipynb: notebook has trained network and it's results.
  
-4. 'checkpoint.pth': trained network's parameters which an agent can restore it's memory using navigator.restore_memoery function.
+4. 'checkpoint.pth': trained network's parameters. 
+
+Agent can restore it's memory using navigator.restore_memoery function.
